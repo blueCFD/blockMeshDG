@@ -67,11 +67,11 @@ Foam::lineDivide::lineDivide
             {
                 if ( i <= ndiv/2.0 )
                 {
-                    divisions_[i] = (1.0 - pow(-xratio, i))/(1.0 - pow(-xratio, ndiv/2))/2;
+                    divisions_[i] = (1.0 - pow(-xratio, i))/(1.0 - pow(-xratio, ndiv/2.0))/2.0;
                 }
                 else
                 {
-                    divisions_[i] = 1.0-(1.0 - pow(-xratio, ndiv-i))/(1.0 - pow(-xratio, ndiv/2))/2;
+                    divisions_[i] = 1.0-(1.0 - pow(-xratio, ndiv-i))/(1.0 - pow(-xratio, ndiv/2.0))/2.0;
                 }
             }
         }
