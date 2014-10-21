@@ -20,6 +20,7 @@ Credits to
  * [Roamer](http://www.cfd-online.com/Forums/members/roamer.html) 
  * [akidess](http://www.cfd-online.com/Forums/members/akidess.html)
 
+Check the commit history for more details: https://github.com/blueCFD/blockMeshDG/commits/master
 
 License
 =======
